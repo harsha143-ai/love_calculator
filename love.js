@@ -14,6 +14,8 @@ function input(){
 
     if (name1 === "" || name2 === "") {
         document.getElementById("error").innerHTML= "🚨 Please enter both names!";
+        document.getElementById("percent").innerHTML="";
+        document.getElementById("quote").innerHTML="";
         return; // Stop further execution
     }
     var t1=t+r+u+e;
