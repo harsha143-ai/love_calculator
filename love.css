@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(89, 78, 78);
+}
+h2{
+    color: blue;
+}
+div{
+    border-radius: 30px;
+    border: solid black;
+    margin: 100px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+    width: 280px;
+    background-color: rgb(240, 107, 120);
+    box-shadow:0 25px 45px rgb(241, 127, 206);
+
+}
+div:hover{
+    transform: scale(1.2);
+}
+.heading{
+    color: blue;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgb(219, 222, 221);
+    box-shadow: 0 30px 40px rgb(210, 210, 102);
+}
+.box{
+    border-radius: 20px;
+    text-align: center;
+}
+button{
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 10px;
+    background-color: rgb(104, 224, 228);
+}
+button:hover{
+    transform: scale(1.2);
+}
