@@ -35,18 +35,22 @@ function input(){
     var total=Number(str1+str2);
 
     if(total<=30){
+        document.getElementById("error").innerHTML= "";
         document.getElementById("percent").innerHTML="🚀 Your Love percentage is "+total;
         document.getElementById("quote").innerHTML="😎 Both are Best Friends 😎";
     }
     else if(total>30 && total<=60){
+        document.getElementById("error").innerHTML= "";
         document.getElementById("percent").innerHTML="🚀 Your Love percentage is "+total;
         document.getElementById("quote").innerHTML="😎 Both are Just Lovers 🤩❤️";
     }
     else if(total>60 && total<=90){
+        document.getElementById("error").innerHTML= "";
         document.getElementById("percent").innerHTML="🚀 Your Love percentage is "+total;
         document.getElementById("quote").innerHTML="😎 Both are True Lovers 💕🥰😍";
     }
     else{
+        document.getElementById("error").innerHTML= "";
         document.getElementById("percent").innerHTML="🚀 Your Love percentage is "+total;
         document.getElementById("quote").innerHTML="😎 Both are Perfect Couples🥰😘";
     }
